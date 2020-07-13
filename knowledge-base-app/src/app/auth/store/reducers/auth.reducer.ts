@@ -3,19 +3,12 @@ import * as AuthActions from '../actions/auth.actions';
 
 export const authFeatureKey = 'auth';
 
-export interface State {
+export interface State {}
 
-}
-
-export const initialState: State = {
-
-};
-
+export const initialState: State = {};
 
 export const reducer = createReducer(
   initialState,
 
-  on(AuthActions.loadAuths, state => state),
-
+  on(AuthActions.loadAuths, (state) => state)
 );
-
