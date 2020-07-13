@@ -27,6 +27,22 @@ Auth module and state
 `ng generate module auth --route auth --module app.module.ts`
 `ng generate feature auth/store/Auth --module auth/auth.module.ts --group`
 
+Prettier
+`npm install --save-dev prettier`
+
+Capacitor for Electron
+`npm install @capacitor/core @capacitor/cli`
+`npx cap init`
+update capacitor.config.json
+`"webDir": "dist/knowledge-base-app",`
+`npx cap add electron`
+update index.html
+`<base href="./" /> => add the .`
+workflow:
+`npm run build`
+`npx cap copy`
+`npx cap open`
+
 ## Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.

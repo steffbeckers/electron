@@ -1,0 +1,13 @@
+{
+  "appId": "eu.steffbeckers.knowledgebase",
+  "appName": "knowledge-base",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "dist/knowledge-base-app",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  },
+  "cordova": {}
+}

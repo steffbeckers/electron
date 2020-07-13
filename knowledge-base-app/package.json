@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "ng build --prod",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
@@ -20,6 +20,8 @@
     "@angular/platform-browser": "~10.0.3",
     "@angular/platform-browser-dynamic": "~10.0.3",
     "@angular/router": "~10.0.3",
+    "@capacitor/cli": "^2.2.1",
+    "@capacitor/core": "^2.2.1",
     "@clr/angular": "^3.1.4",
     "@clr/icons": "next",
     "@clr/ui": "next",
