@@ -23,6 +23,10 @@ https://ngrx.io/guide/schematics
 `ng generate store State --root --statePath store --module app.module.ts`
 `ng generate effect store/App --root --module app.module.ts --group`
 
+Auth module and state
+`ng generate module auth --route auth --module app.module.ts`
+`ng generate feature auth/store/Auth --module auth/auth.module.ts --group`
+
 ## Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
