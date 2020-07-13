@@ -20,12 +20,17 @@
     "@angular/platform-browser-dynamic": "~10.0.3",
     "@angular/router": "~10.0.3",
     "@clr/angular": "^3.1.4",
+    "@clr/icons": "next",
+    "@clr/ui": "next",
+    "@ngrx/effects": "^9.2.0",
+    "@ngrx/entity": "^9.2.0",
+    "@ngrx/schematics": "^9.2.0",
+    "@ngrx/store": "^9.2.0",
+    "@ngrx/store-devtools": "^9.2.0",
+    "@webcomponents/webcomponentsjs": "^2.0.0",
     "rxjs": "~6.5.5",
     "tslib": "^2.0.0",
-    "zone.js": "~0.10.3",
-    "@clr/ui": "next",
-    "@clr/icons": "next",
-    "@webcomponents/webcomponentsjs": "^2.0.0"
+    "zone.js": "~0.10.3"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.1000.2",

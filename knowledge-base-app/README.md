@@ -10,6 +10,19 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
+This app generated
+`ng new knowledge-base-app`
+
+Clarity design test :)
+`ng add @clr/angular`
+
+NgRx
+https://ngrx.io/guide/schematics
+`npm install @ngrx/schematics @ngrx/store @ngrx/effects @ngrx/entity @ngrx/store-devtools`
+`ng config cli.defaultCollection @ngrx/schematics`
+`ng generate store State --root --statePath store --module app.module.ts`
+`ng generate effect store/App --root --module app.module.ts --group`
+
 ## Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
