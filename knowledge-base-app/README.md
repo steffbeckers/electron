@@ -27,6 +27,10 @@ Auth module and state
 `ng generate module auth --route auth --module app.module.ts`
 `ng generate feature auth/store/Auth --module auth/auth.module.ts --group`
 
+Dashboard module and state
+`ng generate module dashboard --route dashboard --module app.module.ts`
+`ng generate feature dashboard/store/Dashboard --module dashboard/dashboard.module.ts --group`
+
 Prettier
 `npm install --save-dev prettier`
 
